@@ -20,10 +20,10 @@ namespace CustomerRelationshipManager
 
         public Customer(int customerID, string forename, string surname, string dateOfBirth)
         {
-            this.customerID = customerID;
-            this.forename = forename;
-            this.surname = surname;
-            this.dateOfBirth = dateOfBirth;
+            this.customerID     = customerID;
+            this.forename       = forename;
+            this.surname        = surname;
+            this.dateOfBirth    = dateOfBirth;
         }
 
         public void Display()
